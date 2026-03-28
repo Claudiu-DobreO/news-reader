@@ -1,0 +1,13 @@
+# Dependencies
+node_modules/
+
+# Secrets — never commit tokens
+.env
+.env.local
+.env.*.local
+server/.env
+
+# Build output
+web/dist
+*.log
+.DS_Store
